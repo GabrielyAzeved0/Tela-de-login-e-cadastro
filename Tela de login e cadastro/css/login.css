@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Nodo Sans', sans-serif;
+}
+
+.mainlogin {
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login>h1 {
+    font-size: 6vh;
+    color: #fd89d1;
+    padding-right: 150px;
+}
+
+
+
+.left-login-img {
+    width: 35vw;
+    padding-right: 250px;
+}
+
+.right-login {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    padding-right: 50px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+
+}
+
+.card-login>h1 {
+    color: #fd89d1;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+#login {
+    width: 100%;
+    padding: 20px 0px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #fd89d1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #fd89d1;
+}
+
+#logar {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #fd89d1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #fd89d1;
+}
+#cadastrar{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background-color: #fd89d1;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #fd89d1;
+}
+#msgError{
+    text-align: center;
+    color: #fd89d1;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+#senhat,#usuariot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.criarConta{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fd89d1;
+    text-decoration: none;
+}

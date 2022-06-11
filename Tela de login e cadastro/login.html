@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login</title>
+
+</head>
+
+<body>
+    <div class="mainlogin">
+        <div class="left-login">
+            <h1>Faça seu login e aproveite!</h1>
+
+            <img src="img/img.svg" class="left-login-img" alt="Astronauta" id="img">
+        </div>
+        <div class="rigth-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <div id="msgError"></div>
+                    <label for="usuariot" id="usuariot">Usuário</label>
+                    <input type="email" name="usuario"  placeholder="Digite seu email" id="usuario" required>
+                    <br>
+                    <label for="senha" id="senhat">Senha</label>
+                    <input type="password" name="senha"  placeholder="Digite sua senha" id="senha" required>
+
+                </div>
+                <form action="">
+                    <button type="submit"id="login">Entrar</button>
+                    <p><a href="cadastro.html" class="criarConta">Crie uma conta </a></p>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
